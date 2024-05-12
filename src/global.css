@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-acme: Acme;
+  --default-bold-body: "SF Pro Text";
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --default-bold-body-size: 17px;
+
+  /* Colors */
+  --label-color-dark-primary: #fff;
+  --color-gainsboro: #d9d9d9;
+  --label-color-light-primary: #000;
+  --color-yellowgreen: #a7c945;
+  --default-systemblue-light: #007aff;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-smi: 13px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}
